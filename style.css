@@ -8,6 +8,7 @@ body {
 }
 
 .hero {
+    margin-bottom: 130px;
     height: 600px;
     background-image: linear-gradient(#12121200, #121212), url('images/Rectangle\ 237.png');
     background-repeat: no-repeat;
@@ -34,7 +35,7 @@ body {
     color: white;
 }
 
-#btn {
+.btn {
     padding: 10px 40px;
     text-decoration: none;
     color: white;
@@ -42,42 +43,135 @@ body {
     border-radius: 3px;
 }
 
-
-.donate {
-    padding: 130px 0;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sections {
+    padding: 0 100px;
+    padding-bottom: 130px;
 }
 
-.donate-text h2 {
+.section-head-text {
+    text-align: center;
+}
+
+.section-head-text h2 {
     font-size: 40px;
     margin-bottom: 20px;
 }
 
 .amount-container {
-    margin: 70px 0;
+    margin: 60px auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
 }
 
-.amount-container span {
-    margin: 0 10px;
+.amount-container li {
     height: 123px;
     width: 136px;
-    background-color: #d8d8d8;
+    background-color: #d8d8d85d;
     /* border: 3px solid #1D8016; */
     border-radius: 5px;
-    display: inline-block;
-
-
     font-size: 30px;
     font-weight: bold;
     color: #707070;
     line-height: 123px;
+    list-style: none;
 }
 
-.amount-container span:hover {
+.amount-container li:hover {
     transition: .2s;
-    border: 3px solid #1D8016;
+    outline: 3px solid #1D8016;
     background-color: #1d801631;
+}
+
+.donate-form {
+    text-align: center;
+}
+
+.donate-form input {
+    width: 60%;
+    height: 25px;
+    margin-bottom: 30px;
+    border: 1.2px solid rgba(105, 105, 105, 0.322);
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+::placeholder {
+    color: rgba(105, 105, 105, 0.521);
+}
+
+
+
+.plan-box {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.plan-box div {
+    padding: 50px 25px;
+    width: 25%;
+    border-radius: 10px;
+
+}
+
+.plan-box div:hover {
+    transition: .4s;
+    box-shadow: 0px 0px 20px rgba(105, 105, 105, 0.637);
+    transform: scale(1.02);
+}
+
+.plan-box div img {
+    margin-bottom: 20px;
+}
+
+.plan-box div h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.plan-box div p {
+    font-size: 14px;
+}
+
+.pb-1 {
+    background-color: rgba(105, 105, 105, 0.123);
+}
+
+.pb-2 {
+    background-color: #1d80161f;
+}
+
+.pb-3 {
+    background-color: #FFF4D6;
+}
+
+.subscription-form {
+    width: 70%;
+    margin: 50px auto;
+    padding: 65px 0;
+    background-color: #1d801633;
+    text-align: center;
+}
+
+.email-input {
+    width: 30%;
+    height: 35px;
+    padding: 0 30px;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    box-shadow: 0 0 5px dimgray;
+}
+
+.subscribe-btn {
+    margin-left: -5px;
+    padding: 10px 25px;
+    background-color: #1D8016;
+    color: white;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    box-shadow: 0 0 5px dimgray;
 }
