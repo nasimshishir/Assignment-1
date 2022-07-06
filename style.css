@@ -8,7 +8,7 @@ body {
 }
 
 .hero {
-    margin-bottom: 130px;
+    margin-bottom: 100px;
     height: 600px;
     background-image: linear-gradient(#12121200, #121212), url('images/Rectangle\ 237.png');
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body {
 
 .sections {
     padding: 0 100px;
-    padding-bottom: 130px;
+    padding-bottom: 100px;
 }
 
 .section-head-text {
@@ -79,7 +79,7 @@ body {
 }
 
 .amount-container li:hover {
-    transition: .2s;
+    transition: .15s;
     outline: 3px solid #1D8016;
     background-color: #1d801631;
 }
@@ -92,14 +92,17 @@ body {
     width: 60%;
     height: 25px;
     margin-bottom: 30px;
-    border: 1.2px solid rgba(105, 105, 105, 0.322);
-    border-radius: 3px;
+    padding: 3px 0;
+    border: 1.5px solid rgba(105, 105, 105, 0.151);
+    border-radius: 2px;
     text-align: center;
 
 }
 
 ::placeholder {
     color: rgba(105, 105, 105, 0.521);
+    font-size: 15px;
+    font-weight: 500;
 }
 
 
@@ -112,7 +115,7 @@ body {
 }
 
 .plan-box div {
-    padding: 50px 25px;
+    padding: 50px 30px;
     width: 25%;
     border-radius: 10px;
 
@@ -121,7 +124,7 @@ body {
 .plan-box div:hover {
     transition: .4s;
     box-shadow: 0px 0px 20px rgba(105, 105, 105, 0.637);
-    transform: scale(1.02);
+    /* transform: scale(1.01); */
 }
 
 .plan-box div img {
@@ -135,6 +138,7 @@ body {
 
 .plan-box div p {
     font-size: 14px;
+    text-align: justify;
 }
 
 .pb-1 {
@@ -174,4 +178,56 @@ body {
     border: none;
     border-radius: 0 3px 3px 0;
     box-shadow: 0 0 5px dimgray;
+}
+
+
+
+
+
+footer {
+    height: fit-content;
+    margin-top: -50px;
+    padding: 40px 0 20px 0;
+    text-align: center;
+    background-color: #063802;
+}
+
+footer h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+footer p {
+    font-size: 14px;
+    color: white;
+}
+
+.sec3-holder {
+    padding: 0 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action {
+    width: 45%;
+    align-items: center;
+}
+
+.call-to-action h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.call-to-action p {
+    margin-bottom: 40px;
+}
+
+.sec3-image {
+    width: 45%;
+}
+
+.sec3-image img {
+    width: 100%;
 }
