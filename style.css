@@ -1,6 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -54,13 +57,27 @@
 }
 
 .amount-container {
-    margin: 100px 0;
+    margin: 70px 0;
 }
 
 .amount-container span {
     margin: 0 10px;
-    padding: 50px 55px;
-    background-color: #FAFAFA;
+    height: 123px;
+    width: 136px;
+    background-color: #d8d8d8;
     /* border: 3px solid #1D8016; */
     border-radius: 5px;
+    display: inline-block;
+
+
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+    line-height: 123px;
+}
+
+.amount-container span:hover {
+    transition: .2s;
+    border: 3px solid #1D8016;
+    background-color: #1d801631;
 }
