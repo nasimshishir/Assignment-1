@@ -182,7 +182,13 @@ body {
 
 .prtnrs-holder {
     padding: 65px 0;
-    background-color: #1d801633;
+    background: rgba(29, 128, 22, 0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-color {
+    color: white;
 }
 
 .prtnr-logos {
@@ -194,7 +200,7 @@ body {
 
 .prtnr-logos div img {
     width: 80%;
-    border-radius: 5px;
+    border-radius: 100%;
 }
 
 .prtnr-logos div p {
@@ -202,7 +208,7 @@ body {
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #1D8016;
+    color: #ffffff;
 }
 
 
@@ -219,7 +225,7 @@ body {
 .email-input {
     width: 30%;
     height: 35px;
-    padding: 0 30px;
+    padding: 0 10px;
     border: none;
     border-radius: 3px 0 0 3px;
     box-shadow: 0 0 5px dimgray;
