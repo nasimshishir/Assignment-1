@@ -192,14 +192,14 @@ body {
 }
 
 .prtnr-logos {
-    padding: 4% 10%;
+    padding: 4% 15%;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
 }
 
 .prtnr-logos div img {
-    width: 80%;
+    width: 75%;
     border-radius: 100%;
 }
 
