@@ -7,9 +7,22 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.sections {
+    padding: 65px 0;
+}
+
+.section-head-text {
+    text-align: center;
+}
+
+.section-head-text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
 .hero {
-    margin-bottom: 100px;
-    height: 600px;
+    margin-bottom: 65px;
+    height: 100vh;
     background-image: linear-gradient(#12121200, #121212), url('images/Rectangle\ 237.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +43,7 @@ body {
 
 .hero-text p {
     margin-bottom: 40px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 300;
     color: white;
 }
@@ -43,33 +56,21 @@ body {
     border-radius: 3px;
 }
 
-.sections {
-    padding: 0 100px;
-    padding-bottom: 100px;
-}
 
-.section-head-text {
-    text-align: center;
-}
-
-.section-head-text h2 {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
+/* section-2 */
 
 .amount-container {
     margin: 60px auto;
-    width: 65%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-.amount-container li {
+.amount {
     height: 123px;
     width: 136px;
     background-color: #d8d8d85d;
-    /* border: 3px solid #1D8016; */
     border-radius: 5px;
     font-size: 30px;
     font-weight: bold;
@@ -78,8 +79,7 @@ body {
     list-style: none;
 }
 
-.amount-container li:hover {
-    transition: .15s;
+.marked {
     outline: 3px solid #1D8016;
     background-color: #1d801631;
 }
@@ -96,7 +96,6 @@ body {
     border: 1.5px solid rgba(105, 105, 105, 0.151);
     border-radius: 2px;
     text-align: center;
-
 }
 
 ::placeholder {
@@ -106,25 +105,19 @@ body {
 }
 
 
+/* section-3 */
 
 .plan-box {
     margin-top: 50px;
+    padding: 0 10%;
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .plan-box div {
     padding: 50px 30px;
     width: 25%;
     border-radius: 10px;
-
-}
-
-.plan-box div:hover {
-    transition: .4s;
-    box-shadow: 0px 0px 20px rgba(105, 105, 105, 0.637);
-    /* transform: scale(1.01); */
 }
 
 .plan-box div img {
@@ -152,6 +145,54 @@ body {
 .pb-3 {
     background-color: #FFF4D6;
 }
+
+
+/* section-4 & 5 */
+
+.call-to-action-holder {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.call-to-action {
+    width: 45%;
+    margin: auto 0;
+}
+
+.call-to-action h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.call-to-action p {
+    margin-bottom: 40px;
+}
+
+.call-to-action-image {
+    width: 45%;
+}
+
+.call-to-action-image img {
+    width: 100%;
+}
+
+
+/* section-6 */
+
+.prtnrs-holder {
+    padding: 65px 0;
+    background-color: #1d801633;
+}
+
+.prtnr-logos {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* section-7 */
 
 .subscription-form {
     width: 70%;
@@ -183,6 +224,7 @@ body {
 
 
 
+/* Footer */
 
 footer {
     height: fit-content;
@@ -202,32 +244,4 @@ footer h2 {
 footer p {
     font-size: 14px;
     color: white;
-}
-
-.sec3-holder {
-    padding: 0 3%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.call-to-action {
-    width: 45%;
-    align-items: center;
-}
-
-.call-to-action h2 {
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.call-to-action p {
-    margin-bottom: 40px;
-}
-
-.sec3-image {
-    width: 45%;
-}
-
-.sec3-image img {
-    width: 100%;
 }
